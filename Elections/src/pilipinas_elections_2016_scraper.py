@@ -61,14 +61,19 @@ def skip_tally(regional_json, subregional_json, municipality_json):
             return True
 
     if all([skip_region, skip_subregion, skip_municipality, regional_json, subregional_json, municipality_json]):
-        if (get_name(regional_json) == skip_region) and (get_name(subregional_json) == skip_subregion) and (get_name(municipality_json) < skip_municipality):
+        if (
+            (get_name(regional_json) == skip_region) and
+            (get_name(subregional_json) == skip_subregion) and
+            (get_name(municipality_json) < skip_municipality)
+        ):
             return True
 
     return False
 
 
-def process_data(parent_json, child_key, level=0):
+def process_data(parent_json, child_key, level=0, out_type='subRegions'):
     global file_path
+    is_path_added = False
 
     child_url = get_url(parent_json.get('subRegions')[child_key].get('url'))
     child_json, path_name = get_data(child_url)
@@ -77,11 +82,44 @@ def process_data(parent_json, child_key, level=0):
 
     if path_name is not None:
         file_path.append(path_name)
+        is_path_added = True
 
     save_data(child_json, file_path)
-    grandchildren = get_subregions(child_json)
 
-    return child_json, grandchildren
+    if out_type == 'subRegions':
+        grandchildren = get_subregions(child_json)
+    elif out_type == 'contests':
+        grandchildren = child_json.get(out_type)
+    else:
+        raise ValueError('Use either `subRegions` or `contests` as out_type value.')
+
+    return child_json, grandchildren, is_path_added
+
+
+def process_contests(contests_list):
+    global file_path
+
+    # Get actual poll results
+    for contest in contests_list:
+        contest_url = get_url(contest['url'])
+
+        try:
+            contest_json, _ = get_data(contest_url, sleep_time=0.1)
+        except Exception as e:
+            print e.message
+            continue
+
+        path_name = contest['url']
+        file_path.append(path_name)
+        fname = os.path.join(*file_path)
+
+        if not os.path.exists(os.path.dirname(fname)):
+            os.makedirs(os.path.dirname(fname))
+
+        with open(fname, 'w') as fl:
+            json.dump(contest_json, fl)
+
+        file_path.pop()
 
 
 if __name__ == '__main__':
@@ -97,75 +135,40 @@ if __name__ == '__main__':
     regions = get_subregions(country_json)
 
     for region in regions:
-        regional_url = get_url(country_json.get('subRegions')[region].get('url'))
-
-        regional_json, path_name = get_data(regional_url)
-        print '\t', get_name(regional_json)
+        regional_json, subregions, is_path_added = process_data(country_json, region, level=1)
 
         if skip_tally(regional_json, None, None):
+            if is_path_added:
+                file_path.pop()
             continue
 
-        if path_name is not None:
-            file_path.append(path_name)
-
-        save_data(regional_json, file_path)
-
-        subregions = get_subregions(regional_json)
-
         for subregion in subregions:
-            subregional_url = get_url(regional_json.get('subRegions')[subregion].get('url'))
-
-            subregional_json, path_name = get_data(subregional_url)
-            print '\t\t', get_name(subregional_json)
+            subregional_json, municipalities, is_path_added = process_data(regional_json, subregion, level=2)
 
             if skip_tally(regional_json, subregional_json, None):
+                if is_path_added:
+                    file_path.pop()
                 continue
 
-            if path_name is not None:
-                file_path.append(path_name)
-
-            save_data(subregional_json, file_path)
-
-            municipalities = get_subregions(subregional_json)
+            subregional_contests = subregional_json.get('contests')
+            process_contests(subregional_contests)
 
             for municipality in municipalities:
-                municipality_url = get_url(subregional_json.get('subRegions')[municipality].get('url'))
-
-                municipality_json, path_name = get_data(municipality_url)
-                print '\t\t\t', get_name(municipality_json)
+                municipality_json, municipal_contests, is_path_added = (
+                    process_data(
+                        regional_json,
+                        subregion,
+                        level=3,
+                        out_type='contests'
+                    )
+                )
 
                 if skip_tally(regional_json, subregional_json, municipality_json):
+                    if is_path_added:
+                        file_path.pop()
                     continue
 
-                if path_name is not None:
-                    file_path.append(path_name)
-
-                save_data(municipality_json, file_path)
-
-                # Get actual poll results
-                contests = municipality_json.get('contests')
-
-                for contest in contests:
-                    contest_url = get_url(contest['url'])
-                    try:
-                        contest_json, _ = get_data(contest_url, sleep_time=0.1)
-                    except Exception as e:
-                        print e.message
-                        continue
-
-                    path_name = contest['url']
-
-                    file_path.append(path_name)
-
-                    fname = os.path.join(*file_path)
-
-                    if not os.path.exists(os.path.dirname(fname)):
-                        os.makedirs(os.path.dirname(fname))
-
-                    with open(fname, 'w') as fl:
-                        json.dump(contest_json, fl)
-
-                    file_path.pop()
+                process_contests(municipal_contests)
 
                 file_path.pop()
 
