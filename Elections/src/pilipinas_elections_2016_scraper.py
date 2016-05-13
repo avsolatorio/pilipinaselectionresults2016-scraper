@@ -10,7 +10,7 @@ file_path = [os.path.abspath(os.curdir), 'data']
 scraper = cfscrape.create_scraper()
 
 
-def get_data(url):
+def get_data(url, sleep_time=1):
     res = scraper.get(url)
     data = res.json()
 
@@ -18,7 +18,7 @@ def get_data(url):
     if path_name is not None:
         path_name = slugify.slugify(path_name)
 
-    time.sleep(1)
+    time.sleep(sleep_time)
 
     return data, path_name
 
@@ -46,26 +46,26 @@ def get_subregions(data):
     return sorted(data.get('subRegions').keys())
 
 
-def skip_tally(regional_json, subregional_json, municipality_json, region, subregion, municipality):
-    to_skip = False
+def skip_tally(regional_json, subregional_json, municipality_json):
+    # Use this to ignore already downloaded data
+    skip_region = 'REGION I'  # None
+    skip_subregion = 'LA UNION'  # None
+    skip_municipality = 'BANGAR'  # None
 
-    if (region is None) and (subregion is None) and (municipality is None):
-        return to_skip
+    if all([skip_region, regional_json]):
+        if (get_name(regional_json) < skip_region):
+            return True
 
-    if get_name(regional_json) < region:
-        to_skip = True
-    elif get_name(subregional_json) < subregion:
-        to_skip = True
-    elif get_name(municipality_json) < municipality:
-        to_skip = True
+    if all([skip_region, skip_subregion, regional_json, subregional_json]):
+        if (get_name(regional_json) == skip_region) and (get_name(subregional_json) < skip_subregion):
+            return True
 
-    return to_skip
+    if all([skip_region, skip_subregion, skip_municipality, regional_json, subregional_json, municipality_json]):
+        if (get_name(regional_json) == skip_region) and (get_name(subregional_json) == skip_subregion) and (get_name(municipality_json) < skip_municipality):
+            return True
 
+    return False
 
-# Use this to ignore already downloaded data
-skip_region = None
-skip_subregion = None
-skip_municipality = None
 
 country_url = get_url("data/regions/0.json")
 country_json, path_name = get_data(country_url)
@@ -83,6 +83,9 @@ for region in regions:
     regional_json, path_name = get_data(regional_url)
     print '\t', get_name(regional_json)
 
+    if skip_tally(regional_json, None, None):
+        continue
+
     if path_name is not None:
         file_path.append(path_name)
 
@@ -95,6 +98,9 @@ for region in regions:
 
         subregional_json, path_name = get_data(subregional_url)
         print '\t\t', get_name(subregional_json)
+
+        if skip_tally(regional_json, subregional_json, None):
+            continue
 
         if path_name is not None:
             file_path.append(path_name)
@@ -109,26 +115,21 @@ for region in regions:
             municipality_json, path_name = get_data(municipality_url)
             print '\t\t\t', get_name(municipality_json)
 
+            if skip_tally(regional_json, subregional_json, municipality_json):
+                continue
+
             if path_name is not None:
                 file_path.append(path_name)
 
             save_data(municipality_json, file_path)
 
-            if skip_tally(
-                regional_json, subregional_json, municipality_json,
-                skip_region, skip_subregion, skip_municipality
-            ):
-                file_path.pop()
-                continue
-
             # Get actual poll results
-
             contests = municipality_json.get('contests')
 
             for contest in contests:
                 contest_url = get_url(contest['url'])
                 try:
-                    contest_json, _ = get_data(contest_url)
+                    contest_json, _ = get_data(contest_url, sleep_time=0.1)
                 except Exception as e:
                     print e.message
                     continue
