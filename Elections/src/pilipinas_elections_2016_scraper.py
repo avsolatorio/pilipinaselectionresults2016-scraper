@@ -118,6 +118,7 @@ for region in regions:
                 regional_json, subregional_json, municipality_json,
                 skip_region, skip_subregion, skip_municipality
             ):
+                file_path.pop()
                 continue
 
             # Get actual poll results
