@@ -1,0 +1,1626 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"reg",
+				"regional_json	statement"
+			],
+			[
+				"mu",
+				"municipality_json	statement"
+			],
+			[
+				"re",
+				"region	forstmt"
+			],
+			[
+				"s",
+				"subRegions"
+			],
+			[
+				"lo",
+				"long_region	import"
+			],
+			[
+				"mob",
+				"mobile_number_prefix	statement"
+			],
+			[
+				"Prof",
+				"ProfilerAnswer"
+			],
+			[
+				"isJ",
+				"isJobPost"
+			],
+			[
+				"O",
+				"OriginalReferrer"
+			],
+			[
+				"us",
+				"user_ref"
+			],
+			[
+				"e",
+				"e	trystmt"
+			],
+			[
+				"exc",
+				"except	keyword"
+			],
+			[
+				"json",
+				"json_body	statement"
+			],
+			[
+				"fie",
+				"field_of_study"
+			],
+			[
+				"cl",
+				"cleaned_sds_categories"
+			],
+			[
+				"clea",
+				"cleaned_sds_categories	statement"
+			],
+			[
+				"clean",
+				"cleaned_sds_jobs"
+			],
+			[
+				"edu",
+				"education_fields	statement"
+			],
+			[
+				"pos",
+				"postgresql"
+			],
+			[
+				"rela",
+				"related_job_id	statement"
+			],
+			[
+				"upd",
+				"updated_at	statement"
+			],
+			[
+				"Real",
+				"RelatedJobs"
+			],
+			[
+				"inval",
+				"invalidated_since"
+			],
+			[
+				"use",
+				"user_id	statement"
+			],
+			[
+				"up",
+				"updated_at	statement"
+			],
+			[
+				"las",
+				"last_scored"
+			],
+			[
+				"de",
+				"defaultdict"
+			],
+			[
+				"text",
+				"tex_type"
+			],
+			[
+				"jobs",
+				"jobs	statement"
+			],
+			[
+				"job",
+				"job_names	statement"
+			],
+			[
+				"sort",
+				"sorted	function"
+			],
+			[
+				"job_nam",
+				"job_names	forstmt"
+			],
+			[
+				"job_na",
+				"job_names	forstmt"
+			],
+			[
+				"job_name",
+				"job_name2"
+			],
+			[
+				"fea",
+				"feature_model	param"
+			],
+			[
+				"ap",
+				"apiLink"
+			],
+			[
+				"related",
+				"related_job_id	statement"
+			],
+			[
+				"sco",
+				"score_source"
+			],
+			[
+				"score",
+				"score_source	statement"
+			],
+			[
+				"job_",
+				"job_id_2	forstmt"
+			],
+			[
+				"job_i",
+				"job_ids	statement"
+			],
+			[
+				"ss",
+				"ss	param"
+			],
+			[
+				"gene",
+				"generated_by	statement"
+			],
+			[
+				"HO",
+				"HIGHER_JOB_LEVEL_PENALTY	statement"
+			],
+			[
+				"sor",
+				"sort_index	param"
+			],
+			[
+				"sear",
+				"search_text_soundex	statement"
+			],
+			[
+				"soun",
+				"soundex_choice	statement"
+			],
+			[
+				"ngra",
+				"ngram_cache	statement"
+			],
+			[
+				"sounde",
+				"soundexed	statement"
+			],
+			[
+				"Ke",
+				"KeyError	class"
+			],
+			[
+				"proc",
+				"processor	function"
+			],
+			[
+				"pro",
+				"processor	param"
+			],
+			[
+				"proce",
+				"processor	statement"
+			],
+			[
+				"miss",
+				"missing_recs	statement"
+			],
+			[
+				"R",
+				"RECOMMENDATION_NAME	statement"
+			],
+			[
+				"section",
+				"section_generator_code"
+			],
+			[
+				"ge",
+				"generated_by"
+			],
+			[
+				"CON",
+				"CONTENT_SECTION_GENERATOR_CODE	statement"
+			],
+			[
+				"recom",
+				"recommendation_section	forstmt"
+			],
+			[
+				"VIE",
+				"VIEWED_SECTION_GENERATOR_CODE	statement"
+			],
+			[
+				"APP",
+				"APPLIED_SECTION_GENERATOR_CODE	statement"
+			],
+			[
+				"Base",
+				"BaseSectionDetails	class"
+			],
+			[
+				"rec",
+				"recommendation	module"
+			],
+			[
+				"with",
+				"with_recs"
+			],
+			[
+				"relate",
+				"related_user_match	statement"
+			],
+			[
+				"cle",
+				"cleaned_sds_jobs	statement"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"glo",
+				"global_start_time	statement"
+			],
+			[
+				"rel",
+				"related_jobs_ids	statement"
+			],
+			[
+				"related_",
+				"related_job_id	statement"
+			],
+			[
+				"comm",
+				"commit_counter	statement"
+			],
+			[
+				"ngram",
+				"ngram_score	statement"
+			],
+			[
+				"sds_",
+				"sds_skill_ids"
+			],
+			[
+				"sds",
+				"sds_skill_ids"
+			],
+			[
+				"jobs_",
+				"jobs_graph"
+			],
+			[
+				"SDS",
+				"SDSSkill	class"
+			],
+			[
+				"can",
+				"candidate_sds_skills"
+			],
+			[
+				"load",
+				"load_only"
+			],
+			[
+				"u_c",
+				"u_cleaned_sds_jobs"
+			],
+			[
+				"woe",
+				"work_experience_level"
+			],
+			[
+				"in",
+				"in	keyword"
+			],
+			[
+				"join",
+				"joinedload"
+			],
+			[
+				"print",
+				"print_function	statement"
+			],
+			[
+				"Cand",
+				"CandidateSDSSkill	class"
+			],
+			[
+				"sql",
+				"sqlalchemy"
+			],
+			[
+				"sesso",
+				"session_rw	statement"
+			],
+			[
+				"is",
+				"is_valid"
+			],
+			[
+				"JobA",
+				"JobActivity"
+			],
+			[
+				"cand",
+				"candidate_score	statement"
+			],
+			[
+				"func",
+				"function	statement"
+			],
+			[
+				"ex",
+				"except	keyword"
+			],
+			[
+				"Rec",
+				"Recommendation	class"
+			],
+			[
+				"loc",
+				"location_geog"
+			],
+			[
+				"candi",
+				"candidate_qualifier	statement"
+			],
+			[
+				"if",
+				"if	If Condition"
+			],
+			[
+				"wor",
+				"work_experience_level	statement"
+			],
+			[
+				"app",
+				"approx_work_level	statement"
+			],
+			[
+				"mi",
+				"missing_recs	statement"
+			],
+			[
+				"work_e",
+				"work_experience"
+			],
+			[
+				"work_experience",
+				"work_experience_level	statement"
+			],
+			[
+				"work",
+				"work_experience_level	statement"
+			],
+			[
+				"wo",
+				"work_experience_level	statement"
+			],
+			[
+				"ed",
+				"education_level	statement"
+			],
+			[
+				"wr",
+				"work_experience"
+			],
+			[
+				"relat",
+				"related_job	statement"
+			],
+			[
+				"Relat",
+				"RelatedJob	class"
+			],
+			[
+				"related_jobs",
+				"related_jobs	statement"
+			],
+			[
+				"wie",
+				"work_experience_level"
+			],
+			[
+				"ca",
+				"candidate_score"
+			],
+			[
+				"batch",
+				"batch_size	statement"
+			],
+			[
+				"cleaned",
+				"cleaned_job_titles	statement"
+			],
+			[
+				"ses",
+				"session_rw	statement"
+			],
+			[
+				"w",
+				"work_experience_level"
+			],
+			[
+				"name",
+				"name_match_score	statement"
+			],
+			[
+				"chain",
+				"chain_contains_option	function"
+			],
+			[
+				"que",
+				"qualified_candidates"
+			],
+			[
+				"Rela",
+				"RelatedJob	class"
+			],
+			[
+				"Re",
+				"Related"
+			],
+			[
+				"exi",
+				"existing_recs"
+			],
+			[
+				"date",
+				"date_emailed	statement"
+			],
+			[
+				"job_re",
+				"job_rec_ids	statement"
+			],
+			[
+				"set",
+				"setdefault	function"
+			],
+			[
+				"Job",
+				"JobApplication	class"
+			],
+			[
+				"exis",
+				"existing_recs	statement"
+			],
+			[
+				"Unico",
+				"UnicodeText	import"
+			],
+			[
+				"exl",
+				"exclude_ids	param"
+			],
+			[
+				"se",
+				"services	module"
+			],
+			[
+				"candid",
+				"candidate_id	statement"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "increse price 20%\n\n4 tires\n1000 km\nspare tire 1\n\n7km\n",
+			"settings":
+			{
+				"buffer_size": 53,
+				"line_ending": "Unix",
+				"name": "increse price 20%"
+			}
+		},
+		{
+			"file": "src/pilipinas_elections_2016_scraper.py",
+			"settings":
+			{
+				"buffer_size": 2032,
+				"line_ending": "Unix",
+				"name": "import cfscraper"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instaa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 192.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			" import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/avsolatorio/WORK/Scraping/Elections"
+	],
+	"file_history":
+	[
+		"/home/avsolatorio/WORK/abelian-group/ansible/failover-db.yml",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/models/package.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/views/recruiter/candidates.py",
+		"/home/avsolatorio/WORK/abelian-group/frontend/build/assets/ats/templates/custom-profiler-modal.html",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/wsgi.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/build/lib/abelian/views/administrator/credits.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/build/lib/abelian/services/payment.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/build/lib/abelian/services/company.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/cron/update_related_jobs.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/services/recommendation/recommendation_sections.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/cron/update_recent_searches.py",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/DefinitelyTyped/change-case/change-case-tests.ts",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/DefinitelyTyped/sequelize/sequelize.d.ts",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/DefinitelyTyped/change-case/change-case.d.ts",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/assets/shared/js/security/signup-forms.ts",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/assets/shared/js/original-referrer.ts",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/cron/send_job_recommendations.py",
+		"/home/avsolatorio/WORK/abelian-group/recommendations-alembic-backup/54d3ac30e02d_generic_recommendation_model_creation.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/views/jobs.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/views/candidate/job_applications.py",
+		"/home/avsolatorio/WORK/abelian-group/frontend/build-tests/src/assets/candidate/js/job-post.js",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/assets/shared/js/analytics.ts",
+		"/home/avsolatorio/WORK/abelian-group/frontend/build-tests/src/assets/shared/js/analytics.js",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/services/abelian_cleaning/cleaner.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/services/recommendation/clustering/users_similarity.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/services/cleaning/cleaner.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/services/candidate_list.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/cron/send_job_alerts.py",
+		"/home/avsolatorio/WORK/abelian-group/frontend/tests/karma/mocha.d.ts",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/assets/job_board/js/services.ts",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/assets/job_board/js/app.ts",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/assets/candidate/js/careers.ts",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/assets/candidate/js/job-post.ts",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/assets/shared/js/security/security.ts",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/assets/candidate/js/routes.ts",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/models/job.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/services/recommendation/utils.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/services/recommendation/clustering/jobs_similarity.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/services/cleaning/industry_and_job_function_mapper.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/models/pricing_package.py",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/assets/shared/templates/kb-job-post-actions.jade",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/assets/candidate/templates/job-post.jade",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/services/payment.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/build/lib/abelian/services/candidate_list.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/services/company.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/views/candidate/jobs.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/services/recommendation/clustering/jobs_graph.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/models/__init__.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/ucr_line_profiler_with_options_loads.prof",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/views/recruiter/candidate_recommendations.py",
+		"/home/avsolatorio/WORK/abelian-group/ansible/roles/internals_server/tasks/main.yml",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/cron/compute_candidate_recommendations.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/cron/send_ask_candidate_hired.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/build/lib/abelian/services/recommendation/clustering/jobs_graph.py",
+		"/home/avsolatorio/WORK/abelian-group/frontend/build/assets/candidate/js/job-post.js",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/assets/task_manager/js/task_manager.ts",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/job-board-index.jade",
+		"/home/avsolatorio/WORK/abelian-group/frontend/build/assets/job_board/js/app.js",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/assets/candidate/js/recommended-jobs.ts",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/services/recommendation/job_recommendation_filters.py",
+		"/home/avsolatorio/WORK/abelian-group/frontend/build/assets/candidate/js/job-application-done.js",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/cron/update_amount_orig_of_free_credit_packages.py",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/assets/shared/templates/kb-job-similar.jade",
+		"/home/avsolatorio/WORK/abelian-group/frontend/Guardfile",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/definitions/kalibrr-models/job.d.ts",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/definitions/kalibrr-models.d.ts",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/assets/candidate/js/job-application-done.ts",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/models/recommendation.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/alembic/versions/4876f0086b2f_add_app_source_to_job_applications.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/services/education_level.py",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/assets/job_board/templates/kb-job-board-card.jade",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/assets/shared/js/security/route-guards.ts",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/assets/candidate/templates/kb-recommended-jobs.jade",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/assets/candidate/templates/job-board.jade",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/assets/shared/templates/job-card.jade",
+		"/home/avsolatorio/WORK/abelian-group/frontend/build/assets/shared/templates/job-card.html",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/assets/administrator/js/job-board.ts",
+		"/home/avsolatorio/WORK/abelian-group/frontend/build/assets/candidate/templates/job-card.html",
+		"/home/avsolatorio/WORK/abelian-group/frontend/build/assets/candidate/templates/job-post.html",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/assets/shared/templates/kb-job-post.jade",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/assets/candidate/templates/job-application-done.jade",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/assets/candidate/js/applications.ts",
+		"/home/avsolatorio/WORK/abelian-group/backend/build/lib/abelian/views/candidate/job_applications.py",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/assets/candidate/templates/job-application-card.jade",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/cron/compute_job_response_rate.py",
+		"/home/avsolatorio/WORK/abelian-group/frontend/build-tests/src/assets/job_board/js/app.js",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/models/attempt.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/services/querying.py",
+		"/home/avsolatorio/WORK/abelian-group/frontend/build/assets/shared/js/love.js",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/assets/shared/js/love.ts",
+		"/home/avsolatorio/WORK/abelian-group/backend/build/lib/abelian/services/recommendation/similarity_managers/__init__.py",
+		"/home/avsolatorio/WORK/abelian-group/ansible/roles/fcron_backend_jobs/tasks/main.yml",
+		"/home/avsolatorio/WORK/abelian-group/backend/alembic/versions/15d7b6fcf9ea_add_rappler_ads_model.py",
+		"/home/avsolatorio/WORK/abelian-group/frontend/build/assets/shared/js/original-referrer.js",
+		"/home/avsolatorio/WORK/abelian-group/recommendations-alembic-backup/4876f0086b2f_add_app_source_to_job_applications.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/services/job.py",
+		"/home/avsolatorio/WORK/abelian-group/frontend/build/assets/candidate/js/routes.js",
+		"/home/avsolatorio/WORK/abelian-group/internals/abelian_internals/views.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/models/invite.py",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/assets/shared/js/app.ts",
+		"/home/avsolatorio/WORK/abelian-group/frontend/build-tests/src/assets/candidate/js/careers.js",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/definitions/kalibrr-globals.d.ts",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/templates/dyn-assets/dynamic.js.j2",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/assets/shared/js/security/script-load-integration.ts",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/cron/update_clustered_recommendations.py",
+		"/home/avsolatorio/WORK/abelian-group/ansible/roles/frontend/templates/vhost.j2",
+		"/home/avsolatorio/WORK/abelian-group/ansible/roles/nginx/templates/nginx.j2",
+		"/home/avsolatorio/WORK/abelian-group/frontend/build/assets/shared/js/security/signup-forms.js",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/assets/shared/js/filters.ts",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/models/payment.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/views/users/account_creation.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/services/job_application.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/models/email_token.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/alembic/versions/4d1f4abd545c_add_gin_index_on_cleaned_sds_categories.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/build/lib/scripts/send_sample_emails.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/build/lib/scripts/test_email_recommendation.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/templates/messages/new-job-posts.html.j2",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/assets/ats/templates/candidate-quick-look.jade",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/cron/compute_user_job_text_features.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/views/candidate/sds.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/abelian/models/user.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/scripts/once/fix_malformed_education_answers.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/alembic/versions/1fbceece260b_add_gin_index_on_cleaned_sds_jobs_and_.py",
+		"/home/avsolatorio/WORK/abelian-group/frontend/build-tests/src/assets/job_board/js/services.js",
+		"/home/avsolatorio/WORK/abelian-group/backend/scripts/once/update_amount_orig_of_free_credit_packages.py",
+		"/home/avsolatorio/WORK/abelian-group/frontend/src/assets/shared/js/education.ts",
+		"/home/avsolatorio/WORK/abelian-group/backend/build/lib/abelian/services/recommendation/job_recommendation_filters.py",
+		"/home/avsolatorio/WORK/abelian-group/backend/alembic/versions/1bbcd739eabd_db_add_jpmap_tag.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 182.0,
+		"where_history":
+		[
+			"/home/avsolatorio/WORK/abelian-group/",
+			"/home/avsolatorio/WORK/abelian-group/backend",
+			"/home/avsolatorio/WORK/abelian-group/frontend",
+			"/home/avsolatorio/WORK/abelian-group/backend",
+			"/home/avsolatorio/WORK/abelian-group/frontend",
+			"/home/avsolatorio/WORK/abelian-group/backend",
+			"/home/avsolatorio/WORK/abelian-group/frontend",
+			"/home/avsolatorio/WORK/abelian-group/",
+			"/home/avsolatorio/WORK/abelian-group/backend/alembic",
+			"/home/avsolatorio/WORK/abelian-group/alembic",
+			"/home/avsolatorio/WORK/abelian-group/backend",
+			"/home/avsolatorio/WORK/abelian-group/frontend",
+			"/home/avsolatorio/WORK/abelian-group/backend",
+			"/home/avsolatorio/WORK/abelian-group/frontend",
+			"/home/avsolatorio/WORK/abelian-group/",
+			"/home/avsolatorio/WORK/abelian-group/frontend",
+			"/home/avsolatorio/WORK/abelian-group/backend",
+			"/home/avsolatorio/WORK/abelian-group/",
+			"/home/avsolatorio/WORK/abelian-group/backend/alembic",
+			"/home/avsolatorio/WORK/abelian-group/frontend/src",
+			"/home/avsolatorio/WORK/abelian-group/frontend",
+			"/home/avsolatorio/WORK/abelian-group/backend/abelian/models",
+			"/home/avsolatorio/WORK/abelian-group/backend/models",
+			"/home/avsolatorio/WORK/abelian-group/backend/alembic",
+			"/home/avsolatorio/WORK/abelian-group/",
+			"/home/avsolatorio/WORK/abelian-group/backend",
+			"/home/avsolatorio/WORK/abelian-group/backend/alembic",
+			"/home/avsolatorio/WORK/abelian-group/frontend",
+			"/home/avsolatorio/WORK/abelian-group/backend",
+			"/home/avsolatorio/WORK/abelian-group/frontend",
+			"/home/avsolatorio/WORK/abelian-group/backend",
+			"/home/avsolatorio/WORK/abelian-group/frontend",
+			"/home/avsolatorio/WORK/abelian-group/backend",
+			"/home/avsolatorio/WORK/abelian-group/",
+			"/home/avsolatorio/WORK/abelian-group/backend/abelian/",
+			"/home/avsolatorio/WORK/abelian-group/backend/abelian/models",
+			"/home/avsolatorio/WORK/abelian-group/",
+			"/home/avsolatorio/WORK/abelian-group/backend",
+			"/home/avsolatorio/WORK/abelian-group/",
+			"/home/avsolatorio/WORK/abelian-group/backend/abelian/",
+			"/home/avsolatorio/WORK/abelian-group/backend/abelian/services/",
+			"/home/avsolatorio/WORK/abelian-group/backend/abelian/",
+			"/home/avsolatorio/WORK/abelian-group/backend/abelian/models",
+			"/home/avsolatorio/WORK/abelian-group/",
+			"/home/avsolatorio/WORK/abelian-group/backend",
+			"/home/avsolatorio/WORK/abelian-group/",
+			"/home/avsolatorio/WORK/abelian-group/backend",
+			"/home/avsolatorio/WORK/abelian-group/",
+			"/home/avsolatorio/WORK/abelian-group/backend",
+			"/home/avsolatorio/WORK/abelian-group/",
+			"/home/avsolatorio/WORK/abelian-group/frontend",
+			"/home/avsolatorio/WORK/abelian-group/backend",
+			"/home/avsolatorio/WORK/abelian-group/frontend/src",
+			"",
+			"/home/avsolatorio/WORK/abelian-group/frontend",
+			"/home/avsolatorio/WORK/abelian-group",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"session_referrer",
+			"replica",
+			"db",
+			"kb-lin-prod-replica",
+			"kb-lin-prod-replica-db",
+			"kb-lin-prod-replica",
+			"viewed_jobs_qualifier",
+			"filter_jobs_to_show_for_user",
+			"get_valid_related_jobs",
+			"filter_jobs_to_show_for_user",
+			"def get",
+			"candidate_recom",
+			"candidateRecom",
+			"Recommendations",
+			"recommendation_sections",
+			"OriginalReferrer",
+			"OrigalReferrer",
+			"PackageTr",
+			"stripe",
+			"payna",
+			"PackageTra",
+			"CompanyCreditPackage",
+			"PackageTransaction",
+			"met_req",
+			"candidate_profile_completed",
+			"date_last_emailed_recs",
+			"candidate_profile_completed",
+			"get_active_status_ids",
+			"active",
+			"tracking_code",
+			"add_template_filter",
+			"referr",
+			"job_application_referrer",
+			"referr",
+			"refer",
+			"referre",
+			"referr",
+			"referrer",
+			"OriginalReferrer",
+			"contact_price = ",
+			"contact_price",
+			"removal_transactions",
+			"TopupTransaction",
+			"spendable_quantity",
+			" get_spent_quantity",
+			"find_spendable_for",
+			"make_for_topup",
+			"unlimi",
+			"CompanyUnlimitedCredits",
+			"= CompanyUnlimitedCredits",
+			"package",
+			"contac",
+			"balance",
+			"process_successful_payment(",
+			"create_company",
+			"= InitialBalanceTransaction",
+			"InitialBa",
+			".apply_transactions(",
+			".make_for_topup(",
+			"CompanyContactCredits",
+			"= CompanyContactCredits",
+			"CompanyContactCredits",
+			"= CompanyContactCredits",
+			"CompanyContactCredits",
+			"CompanyCredits",
+			"= CompanyCredits",
+			"make_for_topup",
+			"TopupTransaction",
+			"CompanyCreditPackage",
+			"amount = ",
+			"filter_jobs_to_show_for_user",
+			"invalidated_since",
+			"invalida",
+			"scoring_time",
+			"filter_jobs_to_show_for_user",
+			"clustered_recommendation_generator",
+			"invalidated_since",
+			"last_scored",
+			"topup",
+			"Origin",
+			".ts",
+			"OriginalReferrer.value",
+			"Origin",
+			"_.upperFirst",
+			"lodash.capit",
+			".capital",
+			".upper",
+			"upperCaseFirst",
+			".upper",
+			".title",
+			"filter.title",
+			"$filter.title",
+			"OriginalReferrer",
+			"Orig",
+			".ts",
+			"OriginalReferrer.",
+			"this.",
+			"_is",
+			".trackLocation",
+			"Analytics.trackLocation",
+			"job post vi",
+			"LocationAnalytics",
+			"Analytics.",
+			"Page view",
+			"transform_job_abbreviations",
+			"job_title_abbr.pkl",
+			"_dictionary_map",
+			"job_recs_section_id_map",
+			"OriginalReferrer",
+			"origina",
+			"OriginalReferrer.value",
+			"Kalibrr.candidate",
+			"4bee2984ba25",
+			"3a2aeba2cfa1",
+			"5090f21619e4",
+			"52fa4a1e2dd0",
+			"HEAD",
+			"52fa4a1e2dd0",
+			"5090f21619e4",
+			"upstream",
+			"Kalibrr.candidateSite",
+			"Kalibrr.candidate",
+			"apply(",
+			"JobBoardCtrl",
+			"apply",
+			"jobBoard",
+			"apply",
+			"appl"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"get_feature_estimator_for_job",
+			"",
+			"replica",
+			"main",
+			"session",
+			"abelian.services.recommendation.recommendation import",
+			"hexists",
+			"user_education_industry_job_industry_similarity_manager",
+			"work_data_similarity_manager",
+			"_work_data_similarity_manager",
+			"'main'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 53,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								53,
+								53
+							]
+						],
+						"settings":
+						{
+							"auto_name": "increse price 20%",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/pilipinas_elections_2016_scraper.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2032,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								135,
+								135
+							]
+						],
+						"settings":
+						{
+							"auto_name": "import cfscraper",
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 66.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 88.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "elections.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"user_simi",
+				"backend/abelian/services/recommendation/clustering/users_similarity.py"
+			],
+			[
+				"candidate_recom",
+				"backend/abelian/views/recruiter/candidate_recommendations.py"
+			],
+			[
+				"candidates.py",
+				"backend/abelian/views/recruiter/candidates.py"
+			],
+			[
+				"send_job",
+				"backend/abelian/cron/send_job_recommendations.py"
+			],
+			[
+				"jobs.p",
+				"backend/abelian/views/candidate/jobs.py"
+			],
+			[
+				"custom-pr",
+				"frontend/build/assets/ats/templates/custom-profiler-modal.html"
+			],
+			[
+				"recommenda",
+				"backend/abelian/models/recommendation.py"
+			],
+			[
+				"recommendation_se",
+				"backend/abelian/services/recommendation/recommendation_sections.py"
+			],
+			[
+				"54d3ac30e02d",
+				"recommendations-alembic-backup/54d3ac30e02d_generic_recommendation_model_creation.py"
+			],
+			[
+				"send",
+				"backend/abelian/cron/send_job_recommendations.py"
+			],
+			[
+				"user_s",
+				"backend/abelian/services/recommendation/clustering/users_similarity.py"
+			],
+			[
+				"job_appli",
+				"backend/abelian/views/candidate/job_applications.py"
+			],
+			[
+				"jobs.",
+				"backend/abelian/views/jobs.py"
+			],
+			[
+				"job.p",
+				"backend/abelian/models/job.py"
+			],
+			[
+				"routes.ts",
+				"frontend/src/assets/candidate/js/routes.ts"
+			],
+			[
+				"origi",
+				"frontend/src/assets/shared/js/original-referrer.ts"
+			],
+			[
+				"wsgi",
+				"backend/abelian/wsgi.py"
+			],
+			[
+				"update",
+				"backend/abelian/cron/update_related_jobs.py"
+			],
+			[
+				"recommendation_s",
+				"backend/abelian/services/recommendation/recommendation_sections.py"
+			],
+			[
+				"pacak",
+				"backend/abelian/models/package.py"
+			],
+			[
+				"all_ref.t",
+				"frontend/tests/all_ref.ts"
+			],
+			[
+				"mocha.d.ts",
+				"frontend/tests/karma/mocha.d.ts"
+			],
+			[
+				"job-post.ts",
+				"frontend/src/assets/candidate/js/job-post.ts"
+			],
+			[
+				"cleaner",
+				"backend/abelian/services/cleaning/cleaner.py"
+			],
+			[
+				"send_",
+				"backend/abelian/cron/send_job_recommendations.py"
+			],
+			[
+				"users_s",
+				"backend/abelian/services/recommendation/clustering/users_similarity.py"
+			],
+			[
+				"send_jo",
+				"backend/abelian/cron/send_job_recommendations.py"
+			],
+			[
+				"origin",
+				"frontend/src/assets/shared/js/original-referrer.ts"
+			],
+			[
+				"",
+				"frontend/src/assets/shared/js/security/signup-forms.ts"
+			],
+			[
+				"ori",
+				"frontend/src/assets/shared/js/original-referrer.ts"
+			],
+			[
+				"job.",
+				"backend/abelian/models/job.py"
+			],
+			[
+				"app_sour",
+				"backend/alembic/versions/4876f0086b2f_add_app_source_to_job_applications.py"
+			],
+			[
+				"jobs_gra",
+				"~/WORK/abelian-group/backend/abelian/services/recommendation/clustering/jobs_graph.py"
+			],
+			[
+				"invite",
+				"backend/abelian/models/invite.py"
+			],
+			[
+				"signup-for",
+				"frontend/src/assets/shared/js/security/signup-forms.ts"
+			],
+			[
+				"job-board",
+				"frontend/src/assets/administrator/js/job-board.ts"
+			],
+			[
+				"job-board.j",
+				"frontend/src/assets/candidate/templates/job-board.jade"
+			],
+			[
+				"job-board.",
+				"frontend/src/assets/administrator/js/job-board.ts"
+			],
+			[
+				"app.ts",
+				"frontend/src/assets/job_board/js/app.ts"
+			],
+			[
+				"apps_sour",
+				"~/WORK/abelian-group/backend/alembic/versions/4876f0086b2f_add_app_source_to_job_applications.py"
+			],
+			[
+				"career",
+				"frontend/src/assets/candidate/js/careers.ts"
+			],
+			[
+				"orig",
+				"frontend/src/assets/shared/js/original-referrer.ts"
+			],
+			[
+				"security.ts",
+				"frontend/src/assets/shared/js/security/security.ts"
+			],
+			[
+				"job-pos",
+				"frontend/src/assets/candidate/js/job-post.ts"
+			],
+			[
+				"route",
+				"frontend/src/assets/candidate/js/routes.ts"
+			],
+			[
+				"routes",
+				"frontend/src/assets/candidate/js/routes.ts"
+			],
+			[
+				"update_rela",
+				"backend/abelian/cron/update_related_jobs.py"
+			],
+			[
+				"update_c",
+				"backend/abelian/cron/update_clustered_recommendations.py"
+			],
+			[
+				"update_clus",
+				"backend/abelian/cron/update_clustered_recommendations.py"
+			],
+			[
+				"clus",
+				"backend/abelian/cron/update_clustered_recommendations.py"
+			],
+			[
+				"app_s",
+				"backend/alembic/versions/4876f0086b2f_add_app_source_to_job_applications.py"
+			],
+			[
+				"job-post",
+				"frontend/src/assets/candidate/js/job-post.ts"
+			],
+			[
+				"cluster",
+				"backend/abelian/cron/update_clustered_recommendations.py"
+			],
+			[
+				"signup-",
+				"frontend/src/assets/shared/js/security/signup-forms.ts"
+			],
+			[
+				"job-po",
+				"frontend/src/assets/candidate/js/job-post.ts"
+			],
+			[
+				"signup",
+				"frontend/src/assets/shared/js/security/signup-forms.ts"
+			],
+			[
+				"accou",
+				"backend/abelian/views/users/account_creation.py"
+			],
+			[
+				"job_appl",
+				"backend/abelian/views/candidate/job_applications.py"
+			],
+			[
+				"acco",
+				"backend/abelian/views/users/account_creation.py"
+			],
+			[
+				"account_c",
+				"backend/abelian/views/users/account_creation.py"
+			],
+			[
+				"pack",
+				"backend/abelian/models/package.py"
+			],
+			[
+				"securi",
+				"frontend/src/assets/shared/js/security/security.ts"
+			],
+			[
+				"job_application",
+				"backend/abelian/views/candidate/job_applications.py"
+			],
+			[
+				"job_app",
+				"backend/build/lib/abelian/views/candidate/job_applications.py"
+			],
+			[
+				"kb-job-post-ac",
+				"frontend/src/assets/shared/templates/kb-job-post-actions.jade"
+			],
+			[
+				"rout",
+				"frontend/src/assets/candidate/js/routes.ts"
+			],
+			[
+				"job_ap",
+				"backend/abelian/services/job_application.py"
+			],
+			[
+				"applica",
+				"frontend/src/assets/candidate/js/applications.ts"
+			],
+			[
+				"routes.js",
+				"frontend/build/assets/candidate/js/routes.js"
+			],
+			[
+				"service",
+				"frontend/src/assets/job_board/js/services.ts"
+			],
+			[
+				"signup.ts",
+				"frontend/src/assets/shared/js/security/signup-forms.ts"
+			],
+			[
+				"script-lo",
+				"frontend/src/assets/shared/js/security/script-load-integration.ts"
+			],
+			[
+				"routes.",
+				"frontend/src/assets/candidate/js/routes.ts"
+			],
+			[
+				"job-post-ac",
+				"frontend/src/assets/shared/templates/kb-job-post-actions.jade"
+			],
+			[
+				"careers",
+				"frontend/src/assets/candidate/js/careers.ts"
+			],
+			[
+				"kb-simi",
+				"frontend/src/assets/shared/templates/kb-job-similar.jade"
+			],
+			[
+				"rou",
+				"frontend/src/assets/candidate/js/routes.ts"
+			],
+			[
+				"job-appli",
+				"frontend/src/assets/candidate/js/job-application-done.ts"
+			],
+			[
+				"job-application-don",
+				"frontend/src/assets/candidate/templates/job-application-done.jade"
+			],
+			[
+				"app.",
+				"frontend/src/assets/job_board/js/app.ts"
+			],
+			[
+				"update_a",
+				"backend/abelian/cron/update_amount_orig_of_free_credit_packages.py"
+			],
+			[
+				"jobs",
+				"backend/abelian/views/jobs.py"
+			],
+			[
+				"update_am",
+				"backend/abelian/cron/update_amount_orig_of_free_credit_packages.py"
+			],
+			[
+				"pricing_pac",
+				"backend/abelian/models/pricing_package.py"
+			],
+			[
+				"payment",
+				"backend/abelian/models/payment.py"
+			],
+			[
+				"package",
+				"backend/abelian/models/package.py"
+			],
+			[
+				"kb-job-pos",
+				"frontend/src/assets/shared/templates/kb-job-post-actions.jade"
+			],
+			[
+				"add_apps",
+				"backend/alembic/versions/4876f0086b2f_add_app_source_to_job_applications.py"
+			],
+			[
+				"pac",
+				"backend/abelian/models/package.py"
+			],
+			[
+				"user",
+				"backend/abelian/models/user.py"
+			],
+			[
+				"add_app",
+				"recommendations-alembic-backup/4876f0086b2f_add_app_source_to_job_applications.py"
+			],
+			[
+				"530124e988bf",
+				"backend/alembic/versions/530124e988bf_add_education_date_started_school_to_.py"
+			],
+			[
+				"329ed51f0417",
+				"backend/alembic/versions/329ed51f0417_add_deleted_and_data_deleted_to_states_.py"
+			],
+			[
+				"10c4a58e908b",
+				"backend/alembic/versions/10c4a58e908b_add_food_and_beverage_tag.py"
+			],
+			[
+				"add_es",
+				"530124e988bf_add_education_date_started_school_to_.py"
+			],
+			[
+				"user.",
+				"backend/abelian/models/user.py"
+			],
+			[
+				"job-bo",
+				"frontend/src/assets/candidate/js/job-board.ts"
+			],
+			[
+				"job-boa",
+				"frontend/src/assets/candidate/templates/job-board.jade"
+			],
+			[
+				"similarity_managers",
+				"backend/build/lib/abelian/services/recommendation/similarity_managers/__init__.py"
+			],
+			[
+				"vhost",
+				"ansible/roles/frontend/templates/vhost.j2"
+			],
+			[
+				"ansible/ngin",
+				"ansible/roles/nginx/templates/nginx.j2"
+			],
+			[
+				"job-car",
+				"frontend/src/assets/shared/templates/job-card.jade"
+			],
+			[
+				"4d1f4abd545c",
+				"backend/alembic/versions/4d1f4abd545c_add_gin_index_on_cleaned_sds_categories.py"
+			],
+			[
+				"1fbceece260b",
+				"backend/alembic/versions/1fbceece260b_add_gin_index_on_cleaned_sds_jobs_and_.py"
+			],
+			[
+				"compute",
+				"backend/abelian/cron/compute_user_job_text_features.py"
+			],
+			[
+				"sds.",
+				"backend/abelian/views/candidate/sds.py"
+			],
+			[
+				"142724daf7c1_add_gin_inde",
+				"backend/alembic/versions/142724daf7c1_add_gin_index_on_education_fields.py"
+			],
+			[
+				"1fbceece260b_add_gin_index_o",
+				"backend/alembic/versions/1fbceece260b_add_gin_index_on_cleaned_sds_jobs_and_.py"
+			],
+			[
+				"user.p",
+				"backend/abelian/models/user.py"
+			],
+			[
+				"kb-re",
+				"frontend/build/assets/candidate/templates/kb-recommended-jobs.html"
+			],
+			[
+				"kb-recomm",
+				"frontend/src/assets/candidate/templates/kb-recommended-jobs.jade"
+			],
+			[
+				"update_re",
+				"backend/abelian/cron/update_related_jobs.py"
+			],
+			[
+				"update_related_job",
+				"backend/abelian/cron/update_related_jobs.py"
+			],
+			[
+				"212be",
+				"backend/alembic/versions/212be34d7ff7_add_ids_to_related_jobs_and_.py"
+			],
+			[
+				"44553e7a0dff_use_text_type_inste",
+				"backend/alembic/versions/44553e7a0dff_use_text_type_instead_of_array_for_.py"
+			],
+			[
+				"job.py",
+				"backend/abelian/models/job.py"
+			],
+			[
+				"update_",
+				"backend/abelian/cron/update_clustered_recommendations.py"
+			],
+			[
+				"user_sim",
+				"backend/abelian/services/recommendation/clustering/users_similarity.py"
+			],
+			[
+				"kb-rec",
+				"frontend/src/assets/candidate/templates/kb-recommended-jobs.jade"
+			],
+			[
+				"queryin",
+				"backend/abelian/services/querying.py"
+			],
+			[
+				"job_recomm",
+				"backend/abelian/services/recommendation/job_recommendation_filters.py"
+			],
+			[
+				"job_recommendation_fil",
+				"backend/abelian/services/recommendation/job_recommendation_filters.py"
+			],
+			[
+				"route-g",
+				"frontend/src/assets/shared/js/security/route-guards.ts"
+			],
+			[
+				"filter.ts",
+				"frontend/src/assets/shared/js/filters.ts"
+			],
+			[
+				"kb-recommended-jobs",
+				"frontend/src/assets/candidate/templates/kb-recommended-jobs.jade"
+			],
+			[
+				"app.js",
+				"frontend/build/assets/job_board/js/app.js"
+			],
+			[
+				"job-board.t",
+				"frontend/src/assets/candidate/js/job-board.ts"
+			],
+			[
+				"job-",
+				"frontend/src/assets/candidate/templates/job-board.jade"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 274.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
