@@ -43,11 +43,12 @@ def get_url(path):
 
 
 def get_subregions(data):
-    return sorted(data.get('subregions').keys())
+    return sorted(data.get('subRegions').keys())
 
 
 country_url = get_url("data/regions/0.json")
 country_json, path_name = get_data(country_url)
+print get_name(country_json)
 
 if path_name is not None:
     file_path.append(path_name)
@@ -55,12 +56,11 @@ if path_name is not None:
 save_data(country_json, file_path)
 regions = get_subregions(country_json)
 
-
 for region in regions:
     regional_url = get_url(country_json.get('subRegions')[region].get('url'))
 
     regional_json, path_name = get_data(regional_url)
-    print get_name(regional_json)
+    print '\t', get_name(regional_json)
 
     if path_name is not None:
         file_path.append(path_name)
@@ -73,7 +73,7 @@ for region in regions:
         subregional_url = get_url(regional_json.get('subRegions')[subregion].get('url'))
 
         subregional_json, path_name = get_data(subregional_url)
-        print get_name(subregional_json)
+        print '\t\t', get_name(subregional_json)
 
         if path_name is not None:
             file_path.append(path_name)
@@ -86,7 +86,7 @@ for region in regions:
             municipality_url = get_url(subregional_json.get('subRegions')[municipality].get('url'))
 
             municipality_json, path_name = get_data(municipality_url)
-            print get_name(municipality_json)
+            print '\t\t\t', get_name(municipality_json)
 
             if path_name is not None:
                 file_path.append(path_name)
@@ -118,3 +118,5 @@ for region in regions:
         file_path.pop()
 
     file_path.pop()
+
+file_path.pop()
