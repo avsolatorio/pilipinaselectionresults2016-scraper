@@ -46,6 +46,27 @@ def get_subregions(data):
     return sorted(data.get('subRegions').keys())
 
 
+def skip_tally(regional_json, subregional_json, municipality_json, region, subregion, municipality):
+    to_skip = False
+
+    if (region is None) and (subregion is None) and (municipality is None):
+        return to_skip
+
+    if get_name(regional_json) < region:
+        to_skip = True
+    elif get_name(subregional_json) < subregion:
+        to_skip = True
+    elif get_name(municipality_json) < municipality:
+        to_skip = True
+
+    return to_skip
+
+
+# Use this to ignore already downloaded data
+skip_region = None
+skip_subregion = None
+skip_municipality = None
+
 country_url = get_url("data/regions/0.json")
 country_json, path_name = get_data(country_url)
 print get_name(country_json)
@@ -93,12 +114,24 @@ for region in regions:
 
             save_data(municipality_json, file_path)
 
+            if skip_tally(
+                regional_json, subregional_json, municipality_json,
+                skip_region, skip_subregion, skip_municipality
+            ):
+                continue
+
             # Get actual poll results
+
             contests = municipality_json.get('contests')
 
             for contest in contests:
                 contest_url = get_url(contest['url'])
-                contest_json, _ = get_data(contest_url)
+                try:
+                    contest_json, _ = get_data(contest_url)
+                except Exception as e:
+                    print e.message
+                    continue
+
                 path_name = contest['url']
 
                 file_path.append(path_name)
