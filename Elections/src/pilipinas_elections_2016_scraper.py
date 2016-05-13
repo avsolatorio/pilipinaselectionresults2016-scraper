@@ -46,23 +46,27 @@ def get_subregions(data):
     return sorted(data.get('subRegions').keys())
 
 
+def get_custom_code(data):
+    return data.get('customCode')
+
+
 def skip_tally(regional_json, subregional_json, municipality_json):
     # Use this to ignore already downloaded data
-    skip_region = 'REGION VI'  # None
-    skip_subregion = 'ILOILO'  # None
-    skip_municipality = 'CARLES'  # None
+    skip_region = None
+    skip_subregion = None
+    skip_municipality = None
 
     if all([skip_region, regional_json]):
-        if (get_name(regional_json) < skip_region):
+        if (get_custom_code(regional_json) < skip_region):
             return True
 
     if all([skip_region, skip_subregion, regional_json, subregional_json]):
-        if (get_name(regional_json) == skip_region) and (get_name(subregional_json) < skip_subregion):
+        if (get_custom_code(regional_json) == skip_region) and (get_name(subregional_json) < skip_subregion):
             return True
 
     if all([skip_region, skip_subregion, skip_municipality, regional_json, subregional_json, municipality_json]):
         if (
-            (get_name(regional_json) == skip_region) and
+            (get_custom_code(regional_json) == skip_region) and
             (get_name(subregional_json) == skip_subregion) and
             (get_name(municipality_json) < skip_municipality)
         ):
@@ -99,6 +103,9 @@ def process_data(parent_json, child_key, level=0, out_type='subRegions'):
 def process_contests(contests_list):
     global file_path
 
+    if contests_list is None:
+        return
+
     # Get actual poll results
     for contest in contests_list:
         contest_url = get_url(contest['url'])
@@ -122,6 +129,13 @@ def process_contests(contests_list):
         file_path.pop()
 
 
+class Depth(object):
+    subregional = 0
+    municipality = 1
+
+# This can be used to indicate whether the scraper should scrape upto the municipality level or not.
+MAX_DEPTH = Depth.municipality
+
 if __name__ == '__main__':
 
     country_url = get_url("data/regions/0.json")
@@ -135,6 +149,7 @@ if __name__ == '__main__':
     regions = get_subregions(country_json)
 
     for region in regions:
+        print '\t', region
         regional_json, subregions, is_path_added = process_data(country_json, region, level=1)
 
         if skip_tally(regional_json, None, None):
@@ -153,11 +168,15 @@ if __name__ == '__main__':
             subregional_contests = subregional_json.get('contests')
             process_contests(subregional_contests)
 
+            if MAX_DEPTH != Depth.municipality:
+                file_path.pop()
+                continue
+
             for municipality in municipalities:
                 municipality_json, municipal_contests, is_path_added = (
                     process_data(
-                        regional_json,
-                        subregion,
+                        subregional_json,
+                        municipality,
                         level=3,
                         out_type='contests'
                     )
